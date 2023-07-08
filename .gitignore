@@ -2,6 +2,8 @@
 .env.prod
 /postgres
 
+/static/products
+
 # compiled output
 /dist
 /node_modules
