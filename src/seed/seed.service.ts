@@ -1,6 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { CreateSeedDto } from './dto/create-seed.dto';
-import { UpdateSeedDto } from './dto/update-seed.dto';
 import { ProductsService } from 'src/products/products.service';
 import { initialData } from './data/seed';
 import { InjectRepository } from '@nestjs/typeorm';
